@@ -16,7 +16,8 @@ public class UsuarioServiceImplMiguel implements UsuarioServiceMiguel{
 
     @Override
     public void removerUsuario(Usuario usuario) {
-        this.listaUsuarios.remove(((int) usuario.id)-1);
+
+        this.listaUsuarios.remove((int) usuario.getId());
 
     }
 
