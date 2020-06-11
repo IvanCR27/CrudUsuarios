@@ -16,10 +16,10 @@ public class AuditoriaServiceImplHP implements AuditoriaServiceHP {
     }
 
     @Override
-    public void getLog(List<Auditoria> aud) {
+    public void getLog(List<Auditoria>  aud) {
 
         for(Auditoria auditoria: aud)
-System.out.println(auditoria);    }
+        System.out.println(auditoria);    }
 
     @Override
     public List<Auditoria> getListLog() {

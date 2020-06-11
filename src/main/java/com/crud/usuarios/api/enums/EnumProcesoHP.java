@@ -11,12 +11,12 @@ public enum EnumProcesoHP {
     }
 
     public String getProceso() {
-        return this.proceso;
+         return this.proceso;
     }
 
     public int getNumProceso() {
 
-        return this.numProceso;
+        return this.numProceso ;
     }
 
 }

@@ -8,6 +8,6 @@ public interface AuditoriaServiceHP {
 
     void setLog(Auditoria auditoria);
     void getLog(List<Auditoria> auditoria);
-    List<Auditoria> getListLog();
+    List<Auditoria> getListLog( );
 
 }

@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface UsuarioServiceHp {
 
-    void meterUsuario(Usuario usuario);
+    void meterUsuario(Usuario usuario );
     void removerUsuario(Usuario usuario);
     List<Usuario> meterUsuario();
     void actualizarPosUsuarios(int pos, Usuario usuario);

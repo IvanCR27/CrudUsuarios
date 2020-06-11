@@ -34,6 +34,6 @@ public class UsuarioServiceImplHP  implements UsuarioServiceHp {
     public void imprimirUsuarios(List<Usuario> Lista) {
 
         for(Usuario usuario: Lista)
-            System.out.println(usuario);
+            System.out.println(usuario );
     }
 }
