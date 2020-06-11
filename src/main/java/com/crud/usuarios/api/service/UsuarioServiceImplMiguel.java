@@ -12,7 +12,7 @@ public class UsuarioServiceImplMiguel implements UsuarioServiceMiguel{
     @Override
     public void setUsuario(Usuario usuario) {
     this.listaUsuarios.add(usuario);
-    }
+    } 
 
     @Override
     public void removerUsuario(Usuario usuario) {

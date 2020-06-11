@@ -10,7 +10,7 @@ public class AuditoriaServiceImplMiguel implements AuditoriaServiceMiguel {
     List<Auditoria> listaProcesos = new ArrayList<>();
 
     @Override
-    public void setLog(Auditoria auditoria) {
+    public void setLog(Auditoria auditoria) { 
         this.listaProcesos.add(auditoria);
     }
 
