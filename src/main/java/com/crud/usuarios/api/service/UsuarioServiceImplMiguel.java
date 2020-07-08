@@ -7,7 +7,7 @@ import java.util.List;
 
 public class UsuarioServiceImplMiguel implements UsuarioServiceMiguel{
 
-    List<Usuario> listaUsuarios = new ArrayList<Usuario>();
+    List<Usuario> listaUsuarios = new ArrayList<>();
 
     @Override
     public void setUsuario(Usuario usuario) {
@@ -17,7 +17,7 @@ public class UsuarioServiceImplMiguel implements UsuarioServiceMiguel{
     @Override
     public void removerUsuario(Usuario usuario) {
 
-        this.listaUsuarios.remove((int) usuario.getId());
+        this.listaUsuarios.remove((Long) usuario.getId());
 
     }
 
@@ -36,7 +36,12 @@ public class UsuarioServiceImplMiguel implements UsuarioServiceMiguel{
     @Override
     public void imprimeUsuarios(List<Usuario> lista) {
 
-        for (Usuario usuario: lista)
+        for (Usuario usuario: lista) {
             System.out.println(usuario);
+        }
+
+        for(int i = 0; i< lista.size(); i++) {
+            System.out.println(lista.get(i));
+        }
     }
 }

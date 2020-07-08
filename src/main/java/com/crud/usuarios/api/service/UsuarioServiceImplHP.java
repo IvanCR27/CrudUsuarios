@@ -17,7 +17,7 @@ public class UsuarioServiceImplHP  implements UsuarioServiceHp {
 
     @Override
     public void removerUsuario(Usuario usuario) {
-        this.listaUsuarios.remove((int)usuario.id);
+        this.listaUsuarios.remove((Long)usuario.id);
     }
 
     @Override

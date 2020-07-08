@@ -10,19 +10,9 @@ import java.util.Date;
 @Data
 public class Usuario {
 
-    public Usuario(long i, String karachi, String s, boolean b, Date fecha, Date fecha1, String s1) {
-        this.id=i;
-        this.usuario=karachi;
-        this.password=s;
-        this.activo=b;
-        this.fechaCreacion=fecha;
-        this.fechaActualizacion=fecha1;
-        this.correo=s1;
-    }
-
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    public long id;
+    public Long id;
 
     @Column(name = "usuario", nullable = false, unique = true, length = 20)
     private String usuario;
